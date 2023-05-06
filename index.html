@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Layout Desk Mob 1</title>
+  <title>Layout Desk Mob 3</title>
   <script src="script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,23 +14,34 @@
 <body>
   <div class="main-container">
     <div class="sidebar">
+      <div class="site-logo-title">
+        <img class="logo" src="house.png" alt="">
+        <p class="title-site">Canadian House</p>
+      </div>
+      <div class="home-info">
+        <p>Bedrooms number: 3</p>
+        <p>Bathrooms number: 2</p>
+        <p>Area: 250.0 sqm</p>
+        <p>Base price: $450,000</p>
+      </div>
       <p class="title-category">Category</p>
       <div class="box-int-ext">
         <div class="btns-ext-int">Exterior</div>
         <div class="btns-ext-int">Interior</div>
       </div>
       <div class="box-category">
-        <p class="btn-category">Brick</p>
-        <p class="btn-category">Stone</p>
-        <p class="btn-category">Render</p>
-        <p class="btn-category">Roof</p>
-        <p class="btn-category">Garage</p>
-        <p class="btn-category">Door</p>
-        <p class="btn-category">Gutter</p>
+        <div class="btn-category">Brick</div>
+        <div class="btn-category">Stone</div>
+        <div class="btn-category">Render</div>
+        <div class="btn-category">Roof</div>
+        <div class="btn-category">Garage</div>
+        <div class="btn-category">Door</div>
+        <div class="btn-category">Gutter</div>
       </div>
     </div>
     <div class="imagebox">
-      <img src="HomeWide.jpg" alt="">
+      <img class="layers" src="grid.png" style="z-index: 1;" alt="">
+      <img class="layers" src="HomeWide.jpg" alt="">
     </div>
   </div>
 </body>
