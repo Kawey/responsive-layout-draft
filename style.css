@@ -94,6 +94,26 @@ color: #444444;
   object-fit: cover;
 }
 
+#brick {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+#brick:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+#stone {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+#stone:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
 @media (max-width: 750px) {
   .main-container {
     flex-direction: column-reverse;
